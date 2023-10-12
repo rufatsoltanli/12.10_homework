@@ -1,0 +1,89 @@
+*{
+    font-family: 'Gabarito', sans-serif;
+}
+img{
+    height: 360px;
+    width: 485px;
+}
+.news{
+    margin: 10%;
+    width: 490px;
+    height: 450px;
+    border: 3px solid black;
+    position: relative;
+}
+.date{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(77, 78, 80);
+    border-top-right-radius: 10px ;
+}
+.text{
+    background-color: rgb(22, 30, 56);
+    width: 485px;
+    height: 85px;
+    color: rgb(156, 155, 155);
+    
+}
+.photo{
+    position: relative;
+    height: 360px;
+    width: 498px;
+}
+p{
+    display: inline-block;
+    
+   position: absolute;
+   bottom: 0;
+   padding-left: 10px;
+}
+b{
+    display: inline-block;
+    
+   position: absolute;
+   bottom: 0;
+   left: 65px;
+   padding-left: 10px;
+}
+.fa-solid:hover{
+    color: rgb(151, 149, 149);
+    font-size: 30px;
+}
+.fa-chevron-left{
+    position:absolute;
+    transition: .4s;
+    left: 15px;
+    font-size: 40px;
+   
+}
+.fa-chevron-right{
+    position:absolute;
+    right: 15px;
+    transition: .4s;
+  
+
+}
+.fa-solid{
+    color: rgb(216, 216, 216);
+    font-size: 40px;
+    top: 150px;
+}
+.icon{
+    position: absolute;
+}
+.text p{
+    padding-bottom: 25px;
+}
+.text p span{
+    text-decoration: underline;
+    transition: .3s;
+}
+.text p span:hover{
+    color: rgb(70, 136, 211);
+}
+.date{
+    color: rgb(165, 168, 170);
+}
